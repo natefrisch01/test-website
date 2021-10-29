@@ -4,9 +4,15 @@
   --black: #000000;
 }
 
+@font-face {
+    font-family: "paper_mario";
+    src: url("fonts/FOT-PopJoyStd-B.otf") format("opentype");
+}
+
 * {
   color: var(--fontColor);
-  font-family: helvetica;
+  -webkit-text-stroke: .5px white; /* width and color */
+  font-family: "paper_mario";
 }
 
 body {
@@ -22,7 +28,7 @@ li {
 }
 
 .list {
-  list-style: square;
+  list-style: circle;
 }
 
 .btn {

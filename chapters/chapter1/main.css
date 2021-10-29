@@ -4,9 +4,14 @@
   --black: #000000;
 }
 
+@font-face {
+    font-family: "paper_mario";
+    src: url("../../fonts/outline_ish.ttf") format("truetype");
+}
+
 * {
   color: var(--fontColor);
-  font-family: helvetica;
+  font-family: "paper_mario";
 }
 
 body {
@@ -22,7 +27,7 @@ li {
 }
 
 .list {
-  list-style: square;
+  list-style: circle;
 }
 
 .btn {
