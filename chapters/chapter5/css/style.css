@@ -1,6 +1,7 @@
 /* ---- reset ---- */
 :root {
   --white: #ffffff;
+  --left: #FFB695;
 }
 
 @font-face {
@@ -24,6 +25,11 @@ ul {
 h1 {
   text-align: center;
 }
+
+h2 {
+  text-align: center;
+}
+
 p {
   text-align: center;
 }
@@ -35,6 +41,37 @@ li {
 canvas {
   display: block;
   vertical-align: bottom;
+}
+
+.column {
+  float: left;
+  font-family: "paper_mario";
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+  width: 20%;
+  }
+
+.middle {
+  width: 30%;
+  background-color:#96D1CD;
+}
+
+.right {
+  width: 50%;
+  background-color:#74C3E1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.darken:hover {
+  filter: brightness(85%);
+  text-decoration: wavy underline;
 }
 
 

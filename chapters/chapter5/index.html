@@ -6,15 +6,24 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <div id="particles-js"></div>
+    <div id="particles-js" style="position:fixed;width:100%;z-index:-10;"></div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./js/script.js"></script>
-    <h1>Task List</h1>
-    <p id="msg">Current tasks:</p>
-    <ul>
-      <li class="list">Add visual styles</li>
-      <li class="list">Add light and dark themes</li>
-      <li class="list">Enable switching the theme</li>
-    </ul>
+    <div class="row">
+      
+       <div class="column left darken">
+           <h2>Column 1</h2>
+           <p>Data..</p>
+       </div>
+       <div class="column middle darken">
+           <h2>Column 2</h2>
+           <p>Data..</p>
+       </div>
+       <div class="column right darken">
+           <h2>Column 3</h2>
+           <p>Data..</p>
+       </div>
+   </div>
+
   </body>
 </html>
